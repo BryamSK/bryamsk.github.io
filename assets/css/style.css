@@ -1080,3 +1080,56 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/*--------------------------------------------------------------
+# Botones de contacto (WhatsApp / Gmail)
+--------------------------------------------------------------*/
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn-contacto {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-contacto:hover {
+  color: #fff;
+  opacity: 0.9;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.btn-contacto i {
+  font-size: 20px;
+}
+
+.btn-whatsapp {
+  background: #25d366;
+}
+
+.btn-email {
+  background: #ea4335;
+}
+
+#header .profile .social-links a.whatsapp:hover {
+  background: #25d366;
+}
+
+#header .profile .social-links a.email:hover {
+  background: #ea4335;
+}
+
+#header .profile .social-links a svg {
+  vertical-align: middle;
+}
