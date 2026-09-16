@@ -1133,3 +1133,10 @@ section {
 #header .profile .social-links a svg {
   vertical-align: middle;
 }
+
+.tech-stack {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #4f5b66;
+}
